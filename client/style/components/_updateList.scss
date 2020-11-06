@@ -1,0 +1,59 @@
+.updateListContainer {
+  width: 21em;
+  display: inline-block;
+  border: 0 solid $tertiary;
+  border-radius: 2em;
+  box-shadow: 2px 2px 7px $tertiary;
+  justify-content: center;
+  padding-top: 1em;
+  margin-left: 20em;
+  margin-top: 12em;
+  height: 17em;
+}
+.updateListContainer h1 {
+  color: $header;
+}
+.updateForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // align-items: center;
+  margin: auto auto auto auto;
+  width: 16em;
+}
+.updateForm div {
+  padding: 0.2em;
+}
+.updateForm label {
+  line-height: 2em;
+}
+.locationInput label {
+  margin-right: 0.2em;
+}
+.updateForm input[type=text]{
+  position: relative;
+  float: right;
+  line-height: 2em;
+  border: .5px solid $secondary;
+  border-radius: 1em;
+  padding-left: .75em;
+
+}
+.updateForm button {
+  margin-top: 1em;
+  font-size: large;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  color: $lightprimary;
+  background: $header;
+  border: none;
+  border-radius: 1.5em;
+  transition: .2s;
+}
+
+.updateForm button:hover {
+  background: $lightbg;
+  color: $header;
+}
